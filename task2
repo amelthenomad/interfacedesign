@@ -1,0 +1,53 @@
+For this task, I will choose Proposal 1 - Create a Portfolio page. Here is a simplified example of how this could be done:
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="portfolio">
+        <img src="my-photo.jpg" alt="My Photo" class="portfolio-image">
+        <h1 class="portfolio-title">My Portfolio</h1>
+        <h2 class="portfolio-subtitle">Web Developer</h2>
+        <p class="portfolio-text">Hello, my name is Amel and I am developing instoxx...</p>
+    </div>
+</body>
+</html>
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.portfolio {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.portfolio-image {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-title {
+    color: #333;
+    text-align: center;
+}
+
+.portfolio-subtitle {
+    color: #777;
+    text-align: center;
+}
+
+.portfolio-text {
+    color: #333;
+    text-align: justify;
+}
+This is a very basic portfolio page with a photo of yourself, a title (h1 tag), a subtitle (h2 tag), and a text description (p tag). The CSS file styles.css is linked in the head of the HTML document, and this file contains all the styles that make the webpage look better. 
